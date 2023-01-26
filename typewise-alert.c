@@ -21,11 +21,11 @@ BreachType classifyTemperatureBreach(
       upperLimit = 35;
       break;
     case HI_ACTIVE_COOLING:
-      lowerLimit = 0;
+      lowerLimit = 41;
       upperLimit = 45;
       break;
     case MED_ACTIVE_COOLING:
-      lowerLimit = 0;
+      lowerLimit = 36;
       upperLimit = 40;
       break;
   }
